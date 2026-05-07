@@ -1,0 +1,139 @@
+body {
+  background-image: url(https://i.pinimg.com/originals/36/e4/d0/36e4d0b856694fc471344b644a1dd6e4.gif);
+  background-size: cover;
+  border-style: groove;
+  border-color: rgba(0,50,120,0.7);
+  border-width: 7px;
+  font-size: 22px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: rgba(0,0,0,0.7);
+  margin-left: 300px;
+  margin-right: 300px;
+  border-style: inset;
+  border-color: gray;
+  border-width: 5px;
+  background-color: lightgray;
+}
+
+p, ul {
+  display: block;
+  text-align: center;
+  margin: auto;
+  color: lightgreen;
+}
+
+b {
+  display: block;
+  margin: 0.3em;
+}
+
+ul {
+  display: block;
+  text-align: center;
+  margin: auto;
+  color: yellow;
+  list-style-position: inside;
+}
+
+h5 {
+  display: block;
+  color: lightblue;
+  text-align: center;
+  border-style: ridge;
+  border-color: rgba(0,60,40,0.7);
+  border-width: 5px;
+  font-size: 22px;
+  margin: 10px 150px 10px 150px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background-color: rgba(0,150,60,0.3);
+}
+
+a {
+  display: block;
+  margin: 20px 100px 0px;
+  color: lightblue;
+  text-decoration: none;
+  text-align: center; 
+  text-transform: uppercase;
+  font-size: 30px;
+  font-family: "Lucida Console", monospace;
+  background-color: rgba(0,30,120,0.7);
+  border-style: outset;
+  border-color: rgb(0,200,230);
+}
+
+a:hover {
+  background-color: rgba(0,30,140,0.7);
+  border-style: inset;
+  border-color: rgb(0,200,240);
+  color: rgb(0,200,250);
+}
+
+th, td {
+  border-style: ridge;
+  border-color: rgb(0,90,240);
+  background-color: rgba(0,90,170,0.6);
+  font-size: 30px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+th:hover {
+  border-style: outset;
+  border-color: rgb(0,150,240);
+  background-color: rgba(0,120,120,0.8);
+  color: rgb(0,220,255);
+  font-size: 32px;
+  font-family: "Palatino", "URW Palladio L", serif;
+}
+
+td:hover {
+  border-style: outset;
+  border-color: rgb(0,150,240);
+  background-color: rgba(0,120,120,0.8);
+  color: rgb(0,220,255);
+  font-size: 32px;
+  font-family: "Palatino", "URW Palladio L", serif;
+}
+
+#tech-image {
+  display: block;
+  margin: auto;
+  width: 500px;
+  border-style: inset;
+  border-width: 3px;
+  border-color: rgba(255,255,255,0.4);
+}
+
+#hoverinfo {
+  margin: 20px 300px 0px 300px;
+  font-size: 25px;
+  background-color: rgba(0,200,120,0.3);
+  border-style: dashed;
+  border-width: 4px;
+  border-color: rgb(0,200,120);
+}
+
+.table {
+  margin: 1em;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: lightgreen;
+}
+
+.lineunder {
+  margin: 0px 90px 5px 90px;
+  border-style: solid;
+  border-color: rgba(255,255,255,0.5);
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-width: 3px;
+}
